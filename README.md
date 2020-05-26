@@ -39,11 +39,12 @@ The MPEG-7 Descriptors used for feature extraction are :
 The searching and manipulation of features and images in this project are done using python programming.
 There are many python notebooks for different types of implementation.
 We have used 2 different datasets for the image search implementation. They are 
-  1. CIFAR-10 dataset : Implemented in CIFARPython.ipynb notebook
-  2. PASCAL dataset : Implemented in PascalPython.ipynb notebook
+  1. CIFAR-10 dataset : Implemented in CIFARPython.ipynb notebook.
+                        #### This notebook can be found at Python/Notebook/CIFARPython.ipynb
+  2. PASCAL dataset : Implemented in PascalPython.ipynb notebook.
+                      #### This notebook can be found at Python/Notebook/PascalPython.ipynb
   
-  
-These notebooks contains call to mpegfeatures.jar for feature extraction and when using these python notebooks there is no need to run the mpegfeatures.jar file seperately for feature extraction.
+  These notebooks contains call to mpegfeatures.jar for feature extraction and when using these python notebooks there is no     need to run the mpegfeatures.jar file seperately for feature extraction.
 
 Apart from notebooks there are also Python runnable files which can be run from command prompt. For this keep the mpegfeatures.jar and AnotherPython.py runnable python files in the same directory.
 
