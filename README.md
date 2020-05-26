@@ -23,3 +23,5 @@ Similarly for Resnet50 : python index_resnet50.py (this will write the feature v
 Next type: python search_resnet50.py --index index_resnet.csv --result dataset(This ranks the results according to cosine and Eucledean 
 and places the images in ResultResnet_Cosine and ResultResnet_Eucledean (Make sure to create these before hand).
 
+For sample I have already uploaded index_resnet.csv and index_vgg16.csv
+
