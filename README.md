@@ -19,6 +19,7 @@ The MPEG-7 Descriptors used for feature extraction are :
 ## To run this java application below are the steps to follow :
 
   ### Feature Extraction runnable JAR name : mpegfeatures.jar
+  #### The mpegfeatures.jar can be found at Java/MPEGFeatureExtractor/mpegfeatures.jar in this repository
   ### To Extract complete dataset features :
     Command : java -jar mpegfeatures.jar -f cifar10/cifar10/train
        • -f : token to indicate dataset feature generation
@@ -44,7 +45,7 @@ We have used 2 different datasets for the image search implementation. They are
   
 These notebooks contains call to mpegfeatures.jar for feature extraction and when using these python notebooks there is no need to run the mpegfeatures.jar file seperately for feature extraction.
 
-Apart from notebooks there are also Python runnable files which can be run from command prompt.
+Apart from notebooks there are also Python runnable files which can be run from command prompt. For this keep the mpegfeatures.jar and AnotherPython.py runnable python files in the same directory.
 
 The command for ruuning these python files are :
   ### To Extract complete dataset features :
@@ -61,11 +62,16 @@ The command for ruuning these python files are :
     Output file name : queryFeature.csv
     Output file location : same as runnable jar location
   
-  Note that the name of runnable python file is AnotherPython.py (name will be changed in some time) which will do all the       work.
+  #### Note that the name of runnable python file is AnotherPython.py (name will be changed in some time) which will do all          the work. The file can be located at Python/PythonFile/AnotherPython.py in this repository.
   
   Some of the sample query and results are displayed below:
   
   Query Image :
+  ![Query Image](https://github.com/stevemanavalan/IRTEX/blob/mpeg7_features/Images/query_image.png)
+  
+  Results :
+  ![Result Image](https://github.com/stevemanavalan/IRTEX/blob/mpeg7_features/Images/result_images.png)
+  
   
   
   
