@@ -24,4 +24,7 @@ Next type: python search_resnet50.py --index index_resnet.csv --result dataset(T
 and places the images in ResultResnet_Cosine and ResultResnet_Eucledean (Make sure to create these before hand).
 
 For sample I have already uploaded index_resnet.csv and index_vgg16.csv
+Please note that Resnetcsv takes quite some time to write vectors to csv.
+
+Also if any exceptions occur with a warning please ignore!
 
