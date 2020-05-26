@@ -1,0 +1,1 @@
+local binary pattern - hsv image - v channel foreground - no of points 24 - radius 4 - no of dimension 26(no of points + 2)

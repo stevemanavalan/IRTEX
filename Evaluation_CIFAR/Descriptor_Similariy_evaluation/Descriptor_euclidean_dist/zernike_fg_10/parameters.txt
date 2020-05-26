@@ -1,0 +1,2 @@
+zernike moments- foreground hsv image with v channels - performed thresholding on foreground with minimum thresolding- created contours and passed 
+the outline- no of dimensions(25) -- radius passed to zernike function - 10
