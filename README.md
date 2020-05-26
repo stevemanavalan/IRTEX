@@ -12,4 +12,14 @@ First VGG16:
 
 in the command prompt type : python index_vgg16.py (this will write the feature vector to the csv file index_vgg16.csv)
 
+
+Next type: python search_vgg16.py --index index_vgg16.csv --result dataset(This ranks the results according to cosine and Eucledean 
+and places the images in ResultVGG_Cosine and ResultVGG_Eucledean (Make sure to create these before hand).
+
+Second Resnet:
+
 Similarly for Resnet50 : python index_resnet50.py (this will write the feature vector to the csv file index_resnet.csv)
+
+Next type: python search_resnet50.py --index index_resnet.csv --result dataset(This ranks the results according to cosine and Eucledean 
+and places the images in ResultResnet_Cosine and ResultResnet_Eucledean (Make sure to create these before hand).
+
