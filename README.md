@@ -16,10 +16,10 @@ The MPEG-7 Descriptors used for feature extraction are :
       1. Region-Based Shape Descriptor: The descriptor expresses the region-based shape of an object. Multiple objects with                                           discontinuous regions can be described by this descriptor. It gives a compact and                                             efficient way of describing properties of multiple disjoint regions simultaneously.
       
  
-# To run this java application below are the steps to follow :
+## To run this java application below are the steps to follow :
 
   Feature Extraction runnable JAR name : mpegfeatures.jar
-  # To Extract complete dataset features :
+  ### To Extract complete dataset features :
     Command : java -jar mpegfeatures.jar -f cifar10/cifar10/train
        • -f : token to indicate dataset feature generation
        • cifar10/cifar10/train : name of the directory
@@ -27,7 +27,7 @@ The MPEG-7 Descriptors used for feature extraction are :
     Output file location : same as runnable jar location
     
     
-  # To Extract query image feature :
+  ### To Extract query image feature :
     Command : java -jar mpegfeatures.jar -i cifar10/cifar10/train/airplane/0001.png
        • -i : token to indicate query image feature extraction
        • cifar10/cifar10/train/airplane/0001.png : query image
