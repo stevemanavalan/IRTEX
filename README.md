@@ -67,6 +67,12 @@ The command for ruuning these python files are :
   Some of the sample query and results are displayed below:
   
   Query Image :
+  
+  
+  
+  
+  
+  
   ![Query Image](https://github.com/stevemanavalan/IRTEX/blob/mpeg7_features/Images/query_image.png)
   
   Results :
