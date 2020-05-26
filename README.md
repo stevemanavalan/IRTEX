@@ -7,5 +7,9 @@ Image Retrieval with Textual Explanation
 2)query : which has a query image from ciphar-10
 
 I have implemented on VGG16, and RESNET 50.
+
 First VGG16:
-in the command prompt type : python index_vgg16.py (this will write the feature vector to the csv file index_vgg.csv
+
+in the command prompt type : python index_vgg16.py (this will write the feature vector to the csv file index_vgg16.csv)
+
+Similarly for Resnet50 : python index_resnet50.py (this will write the feature vector to the csv file index_resnet.csv)
