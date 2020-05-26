@@ -18,7 +18,7 @@ The MPEG-7 Descriptors used for feature extraction are :
  
 ## To run this java application below are the steps to follow :
 
-  Feature Extraction runnable JAR name : mpegfeatures.jar
+  ### Feature Extraction runnable JAR name : mpegfeatures.jar
   ### To Extract complete dataset features :
     Command : java -jar mpegfeatures.jar -f cifar10/cifar10/train
        • -f : token to indicate dataset feature generation
@@ -33,6 +33,44 @@ The MPEG-7 Descriptors used for feature extraction are :
        • cifar10/cifar10/train/airplane/0001.png : query image
     Output file name : queryFeature.csv
     Output file location : same as runnable jar location
+    
+# 2. Python Notebook and files
+The searching and manipulation of features and images in this project are done using python programming.
+There are many python notebooks for different types of implementation.
+We have used 2 different datasets for the image search implementation. They are 
+  1. CIFAR-10 dataset : Implemented in CIFARPython.ipynb notebook
+  2. PASCAL dataset : Implemented in PascalPython.ipynb notebook
+  
+  
+These notebooks contains call to mpegfeatures.jar for feature extraction and when using these python notebooks there is no need to run the mpegfeatures.jar file seperately for feature extraction.
+
+Apart from notebooks there are also Python runnable files which can be run from command prompt.
+
+The command for ruuning these python files are :
+  ### To Extract complete dataset features :
+    Command : python3 AnotherPython.py -f cifar10/cifar10/train
+       • -f : token to indicate dataset feature generation
+       • cifar10/cifar10/train : name of the directory
+    Output file name : outputFeature.csv
+    Output file location : same as runnable jar location
+    
+  ### To Extract query image feature :
+    Command : python3 AnotherPython.py -i cifar10/cifar10/train/airplane/0001.png
+       • -i : token to indicate query image feature extraction
+       • cifar10/cifar10/train/airplane/0001.png : query image
+    Output file name : queryFeature.csv
+    Output file location : same as runnable jar location
+  
+  Note that the name of runnable python file is AnotherPython.py (name will be changed in some time) which will do all the       work.
+  
+  Some of the sample query and results are displayed below:
+  
+  Query Image :
+  
+  
+  
+  
+  
 
 
 
