@@ -75,7 +75,7 @@ Backend: Business logic and database connection
 
 1. On server start up, it is noted that a csv file **'outputFeature.csv'** is generated within the **backend folder**. This is the file generated for the Toy dataset present within the folder **backend/image_dir/Toyset** (Consisting of 10 images)
 
-2. User can now upload an images clicking on browse button shown below :
+2. User can now upload an images clicking on browse button.
 
    ![](E:\OVGU\Sem2_Summer2020\Subjects\Project\Milestone_2\UI.png)
 
@@ -92,7 +92,7 @@ Backend: Business logic and database connection
 
    1. Displays the pie chart depicting the feature contribution based on the json object which is retrieved from the backend python script(**Feature.py**) 
 
-   2. To track user clicks, we are persisting the repository image id into the corresponding query image as shown below:
+   2. To track user clicks, we are persisting the repository image id into the corresponding query image.
 
       ![](E:\OVGU\Sem2_Summer2020\Subjects\Project\Milestone_2\mongodb.png)
 
