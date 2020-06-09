@@ -40,6 +40,7 @@ The searching and manipulation of features and images in this project are done u
 There are many python notebooks for different types of implementation.
 We have used 2 different datasets for the image search implementation. They are 
   1. CIFAR-10 dataset : Implemented in CIFARPython.ipynb notebook.
+                        Implemented Individual Descriptor Feature Extraction and applying Linear Regression to get the contribution of each descriptor in the final retrieval. The experiment is done in CifarMpegIndividualFeatures.ipynb notebook. It can be found at Python/Notebook/CifarMpegIndividualFeatures.ipynb
                         #### This notebook can be found at Python/Notebook/CIFARPython.ipynb
   2. PASCAL dataset : Implemented in PascalPython.ipynb notebook.
                       #### This notebook can be found at Python/Notebook/PascalPython.ipynb
