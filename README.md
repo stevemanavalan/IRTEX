@@ -41,7 +41,13 @@ We have used 2 different datasets for the image search implementation. They are
 
 Apart from notebooks there are also Python runnable files which can be run from command prompt. For this keep the mpegfeatures.jar and AnotherPython.py runnable python files in the same directory.
 
-The command for ruuning these python files are :
+The MPEG_Features.py file contain all the implemention and is the master file for this feature. All the other implementation files are called and accessed using this master file. The descriptions and workings of all the files are below:
+1. MPEG_Features.py - Main file which has reading dataset and similarity calculations for query image.
+2. Decision_Rule.py - Decision rules for better global and textual explanations(Under work).
+3. Dominant_Color.py - To get the dominant color information of the image.
+4. Pascal_Labels.py - To get the multiple lables for pascal dataset.
+
+The command for running these python files are :
   ### To Extract complete dataset features :
     Command : python3 AnotherPython.py -f cifar10/cifar10/train
        • -f : token to indicate dataset feature generation
