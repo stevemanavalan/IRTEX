@@ -1,0 +1,1 @@
+color histogram- background- hsv image with h,s channels- no of bins (12x12 = 144)

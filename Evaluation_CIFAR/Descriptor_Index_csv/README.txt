@@ -1,0 +1,1 @@
+Index files generated with sample data set of 190 images from CIFAR dataset. All tests were carried out with this image set and can be used to compare descriptors and similarity measure

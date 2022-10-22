@@ -1,0 +1,1 @@
+color histogram- foregroundhsv image with h,s channels- no of bins (8x10 = 80)
